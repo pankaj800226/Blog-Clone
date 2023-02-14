@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/904d5334a1.js" crossorigin="anonymous"></script>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* menu */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  /* float: right; */
+}
+
+.menu ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 30px 25px;
+  list-style: none;
+}
+
+.menu ul li a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* color: rgb(28, 27, 27); */
+  font-size: 1.3rem;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 5px rgb(28, 27, 27);
+  background-color: #180e34;
+  color: #fff;
+}
+
+
+.menu p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(28, 27, 27);
+  font-size: 2.6rem;
+  margin-top: 24px;
+  cursor: pointer;
+  margin-left: 80px;
+  font-weight: 500;
+}
+
+.menu ul li a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+}
+
+i {
+  padding: 8px;
+}
+
+
+.blog-contant{
+  background-color: #060505;
+  margin-top: 40px;
+}
+.blog-contant p{
+  margin-left: 76px;
+    font-size: 2.2rem;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    cursor: pointer;
+}
+
+.blog-contant a{
+  font-size: 1.2rem;
+  position: relative;
+  bottom: -146px;
+  left: 354px;
+  background: #fff;
+  color:black ;
+  padding: 17px 45px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.blog-image img{
+  max-width: 55%;
+  margin-top: 100px;
+  margin-left: 66px;
+  transition: 1.1s ease;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.blog-image img:hover{
+  filter: none(1);
+  transform: scale(1.03);
+}
+
+.blog-image2 img{
+  max-width: 30%;
+    float: right;
+    position: relative;
+    bottom: 560px;
+    right: 53px;
+    border-radius: 16px;
+    transition: 1.1s ease;
+    cursor: pointer;
+}
+
+.blog-image2 img:hover{
+  filter: none(1);
+  transform: scale(1.03);
+}
+
+.blog-image2 p{
+  float: right;
+  position: relative;
+  left: 297px;
+  font-size: 1.2rem;
+  bottom: 266px;
+  line-height: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  color: #fff;
+}
+
+.blog-image3 img{
+  max-width: 30%;
+  position: relative;
+  /* left: 51rem; */
+  left: 827px;
+  bottom: 218px;
+  border-radius: 16px;
+  transition: 1.1s ease;
+  cursor: pointer;
+}
+
+.blog-image3 img:hover{
+  filter: none(1);
+  transform: scale(1.03);
+}
+
+.blog-image3 p{
+  font-size: 21px;
+  float: right;
+  margin-top: -187px;
+  margin-right: 60px;
+  line-height: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  color: #fff;
+}
+
+
+/* .layout-image */
+.layout-image{
+  display: flex;
+}
+.layout-image img{
+  max-width: 92%;
+  margin-top: 20px;
+  transition: 1.0s ease;
+  box-shadow: 1px 1px 1px 1px rgb(208, 207, 207);
+  margin-left: 22px;
+  cursor: pointer;
+}
+
+.layout-image a{
+  position: relative;
+    left: 250px;
+    bottom: -17px;
+    background: rgb(233, 230, 230);
+    padding: -1px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    transition: 1s ease;
+    color: #161616;
+    font-weight: 10;
+}
+
+.layout-image a:hover{
+  background-color: black;
+  color: #fff;
+}
+
+.layout-image img:hover{
+  filter: none(1);
+  transform: scale(1.03);
+}
+/* pankaj-part */
+.pankaj-part{
+  display: flex;
+}
+.carde img{
+  margin-top: 60px;
+  max-width: 90%;
+  border-radius: 16px;
+  margin-left: 22px;
+  cursor: pointer;
+  transition: 1.2s ease;
+}
+.carde p{
+  margin-top: 10px;
+  font-size: 1.1rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+.carde h2{
+  text-align: center;
+  margin-top: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.carde img:hover{
+  filter: none(1);
+  transform: scale(1.03);
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+  
+  }
+  
+  ::-webkit-scrollbar-track{
+    background-color: #d1e5ff;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background: linear-gradient(#180e34, #a21792);
+    border-radius: 10px;
+  }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <p>KAte</p>
+            <ul>
+                <li><a href="/index.html"> <i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="about.html"> <i class="fa-solid fa-address-card"></i>About</a></li>
+                <li><a href="/sign up.html"> <i class="fa-sharp fa-solid fa-user-plus"></i></i>sign up</a></li>
+                <li><a href="blog.html"> <i class="fa-sharp fa-solid fa-square-rss"></i>Blog</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="blog-contant">
+        <div class="blog-image">
+         <img src="https://assets.website-files.com/638994e3ac476c94ba486f9c/638998000e53efbaefe87dd2_blog-01.jpg" alt="">
+        </div>
+        <p>Blog Explained in Instagram Photos</p>
+        <!-- <a href="">Send me</a> -->
+     
+        <div class="blog-image2">
+         <img src="https://assets.website-files.com/638994e3ac476c94ba486f9c/639b074ba95e0eda8ba6176a_blog-13.jpg" alt="">
+        <p>Questions everyone working in IT should</p>
+        </div>
+        
+        <div class="blog-image3">
+         <img src="https://assets.website-files.com/638994e3ac476c94ba486f9c/638ad067698caa848c3b1b72_blog-11.jpg" alt="">
+        <p>
+         Undeniable Proof That You Need Blog</p>
+        </div>
+     </div>
+     </div>
+
+     <div class="layout-image">
+        <div class="img">
+         <img src="	https://assets.website-files.com/61e343b8f87fb4d287394d48/61ede8c07065411fb5439b9f_Home%20A.jpg" alt="">
+         <a href="pk.html">HOME A</a>
+        </div>
+     
+        <div class="img">
+         <img src="	https://assets.website-files.com/61e343b8f87fb4d287394d48/61ede8c048e09768018c3ac3_Home%20C.jpg" alt="">
+         <a href="#">HOME B</a>
+        </div>
+     </div>
+     
+     <div class="pankaj-part">
+         <div class="carde">
+             <a href="https://unsplash.com/"> <img src="https://assets.website-files.com/638994e3ac476c94ba486f9c/638ad03a0787c79113c94082_blog-10-p-500.jpg" alt=""></a>
+             <p>5 Cliches About Blog You Should<br> Avoid</p>
+             <h2>By Lori Steven</h2>
+     
+         </div>
+     
+         <div class="carde">
+             <a href="https://unsplash.com/photos/dGyVufi_6VA"> <img src="https://assets.website-files.com/638994e3ac476c94ba486f9c/638ad0d244a03fc64b939d3b_blog-12-p-500.jpg" alt=""></a>
+             <p>
+                 Skills that you can learn from <br>business</p>
+                 <h2>By lerry Lawson</h2>
+     
+         </div>
+     
+         <div class="carde">
+             <a href="https://unsplash.com/photos/p1dtEefClWY"> <img src="https://assets.website-files.com/638994e3ac476c94ba486f9c/6389a5b942ab4a10debd8991_blog-07-p-500.jpg" alt=""></a>
+             <p>
+                 Five unbelievable facts about <br>money.</p>
+     <h2>By Louis Crawford</h2>
+         </div>
+     
+         <div class="carde">
+             <a href="https://unsplash.com/photos/xaAUcg8gAuw"> <img src="https://assets.website-files.com/638994e3ac476c94ba486f9c/6389a9a10384305a7e091e56_blog-08-p-500.jpg" alt=""></a>
+             <p> 
+                 This is why this year will be the <br>year</p>
+     <h2>By Joan Wallance</h2>
+         </div>
+
+
+         
+     
+
+</body>
+</html>
+
+
+
